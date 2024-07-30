@@ -1,0 +1,22 @@
+.series {
+    margin-top: 40px;
+    h3 {
+        color:#ffff;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 23px;
+    }
+
+    .imagens img{
+        margin: 23px; 
+        transition: transform 0.1s ease-in-out;   
+    }
+
+    .imagens img:hover {
+        transform: scale(1.1);
+    }
+
+
+
+    margin-bottom: 20px;
+}

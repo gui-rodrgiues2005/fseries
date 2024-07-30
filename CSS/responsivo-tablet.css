@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+    body {
+        background-image: url('/images/background .png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    header {        
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 30px;
+            .navegation{
+                display: flex;
+                margin-left: -20px;
+                gap: 20px;
+              
+                .logo {
+                    position: relative;
+                    top: -10px;
+                    left: -20px;
+                    transition: transform 0.2s ease-in-out;
+                }
+                .logo:hover{
+                    transform: scale(1.1);
+                    cursor: pointer;
+            }
+        
+            .busca {  
+                margin-left: 18rem;
+                input{
+                    width: 301px;
+                    height: 35px;
+                    border-radius: 20px;
+                    background-color: #c4c4c4bb;
+                    border: none;
+                    outline: none;
+                    transition: transform 0.1s ease-in-out;
+                }
+                
+                input:hover {
+                    transform: scale(1.1) ;
+                    color: #ffffffc3;
+                    cursor: pointer;
+                }
+        
+        
+                img {
+                    position: relative;
+                    left: -50px;
+                    top: 9px;
+                }
+        
+                ::placeholder {
+                    color: #FFFF;
+                    padding: 18px;
+                    font-size: 14px;
+                }
+            }
+        
+            .conta {
+                display: flex;
+                p {
+                    color:#FFFF;
+                    font-size:16px;
+                    font-weight:medium;
+                }
+        
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    transition: transform 0.2s ease-in-out;
+                }
+        
+                img:hover {
+                    transform: scale(1.1) ;
+                    color: #ffffffc3;
+                    cursor: pointer;
+                }
+            }
+        }  
+    }
+
+    .container {
+        .card {
+            display: flex;
+            .img-bridgerton {
+                margin-left: 50px;
+            }
+            .complementos {
+                width: 400px;
+                margin-left: 100px;
+    
+                .título {
+                    font-size: 50px;
+                    font-weight: bold;
+                    color: #F5F5F5;
+                }
+    
+                .adicionais {
+                    display: flex;
+                    color: #F5F5F5;
+                    font-size: 12px;
+                    font-weight: medium;
+                    margin-top: -50px;
+                    margin-bottom: 31px;
+                    gap: 25px;
+    
+                    span {
+                        color: #18E256;
+                        margin-top: 14px;
+                    }
+                }
+            }
+    
+            .buttons {
+                display: flex;
+                margin-bottom: 47px;
+                .assistir {
+                    button {
+                        background-color: #7600FF;
+                        width: 180px;
+                        height: 55px;
+                        border-radius: 26px;
+                        color: #F5F5F5;
+                        font-size:12px;
+                        outline: none;
+                        border: none;
+                        transition: transform 0.3s ease-in-out;
+                    }
+    
+                    img {
+                        position: relative;
+                        left: 30px;
+                        top: 44px;
+                    }
+    
+                    button:hover {
+                        transform: scale(1.1) ;
+                        color: #ffffffc3;
+                        cursor: pointer;
+                    }
+                }
+    
+                .favoritar {
+                    svg {
+                        position: relative;
+                        width: 24px;
+                        height: 24px;
+                        color: #F5F5F5;
+                        left: 30px;
+                        top: 37px;
+                    }
+    
+                    button {
+                        background-color: transparent;
+                        outline: none;
+                        border: none;
+                        font-size: 14px;
+                        color: #F5F5F5;
+                        margin-left: 55px;
+                        margin-top: 12px;
+                    }
+    
+                    button:hover {
+                        transition: 0.2s;
+                        color: #ffffffc3;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+    
+            .texto {
+                color: #F5F5F5;
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 30px;
+            }
+    
+            .produção {
+                color: #F5F5F5;
+                
+                span {
+                    color: #f5f5f5aa;
+                    margin-left: 20px;
+                    font-weight: 300;
+                }
+    
+                .elenco {
+                    letter-spacing: 1px;
+                    
+                }
+    
+                .gênero {
+                    margin-top: -12px;
+                    letter-spacing: 1px;
+                }
+            }
+    
+        }
+    }
+}

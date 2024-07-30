@@ -1,0 +1,120 @@
+.container {
+    .card {
+        display: flex;
+        .img-bridgerton {
+            margin-left: 108px;
+        }
+        .complementos {
+
+            width: 600px;
+            margin-left: 150px;
+
+            .título {
+                font-size: 50px;
+                font-weight: bold;
+                color: #F5F5F5;
+            }
+
+            .adicionais {
+                display: flex;
+                color: #F5F5F5;
+                font-size: 20px;
+                font-weight: medium;
+                margin-top: -60px;
+                margin-bottom: 31px;
+                gap: 25px;
+
+                span {
+                    color: #18E256;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            margin-bottom: 47px;
+            .assistir {
+                button {
+                    background-color: #7600FF;
+                    width: 187px;
+                    height: 55px;
+                    border-radius: 26px;
+                    color: #F5F5F5;
+                    font-size: 20px;
+                    outline: none;
+                    border: none;
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                img {
+                    position: relative;
+                    left: 40px;
+                    top: 4px;
+                }
+
+                button:hover {
+                    transform: scale(1.1) ;
+                    color: #ffffffc3;
+                    cursor: pointer;
+                }
+            }
+
+            .favoritar {
+                svg {
+                    position: relative;
+                    width: 24px;
+                    height: 24px;
+                    color: #F5F5F5;
+                    left: 30px;
+                    top: 4px;
+                }
+
+                button {
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    font-size: 20px;
+                    color: #F5F5F5;
+                    margin-left: 30px;
+                    margin-top: 12px;
+                }
+
+                button:hover {
+                    transition: 0.2s;
+                    color: #ffffffc3;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+        .texto {
+            color: #F5F5F5;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .produção {
+            color: #F5F5F5;
+            
+            span {
+                color: #f5f5f5aa;
+                margin-left: 20px;
+                font-weight: 300;
+            }
+
+            .elenco {
+                letter-spacing: 1px;
+                
+            }
+
+            .gênero {
+                margin-top: -12px;
+                letter-spacing: 1px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,107 @@
+body {
+    background-image: url('/images/background .png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navegation-mobile {
+    display: none;
+}
+
+header {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    
+    .navegation{
+        display: flex;
+        margin-left: -20px;
+        gap: 20px;
+      
+        .logo {
+            position: relative;
+            top: -10px;
+            left: -20px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .logo:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        a {
+            color: #FFFF;
+            text-decoration: none;
+            margin-left: 50px;
+            transition: transform 0.3s ease-in-out;
+        }
+        a:hover {
+            transform: scale(1.1) ;
+            color: #ffffffc3;
+            cursor: pointer;
+        }
+    }
+
+    .busca {  
+        margin-left: 18rem;
+        input{
+            width: 301px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #c4c4c4bb;
+            border: none;
+            outline: none;
+            transition: transform 0.1s ease-in-out;
+        }
+        
+        input:hover {
+            transform: scale(1.1) ;
+            color: #ffffffc3;
+            cursor: pointer;
+        }
+
+
+        img {
+            position: relative;
+            left: -50px;
+            top: 9px;
+        }
+
+        ::placeholder {
+            color: #FFFF;
+            padding: 18px;
+            font-size: 14px;
+        }
+    }
+
+    .conta {
+        display: flex;
+        p {
+            color:#FFFF;
+            font-size:16px;
+            font-weight:medium;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin-left: 20px;
+            margin-top: 10px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1) ;
+            color: #ffffffc3;
+            cursor: pointer;
+        }
+    }
+}
